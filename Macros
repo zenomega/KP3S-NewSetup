@@ -85,7 +85,7 @@ gcode:
 [gcode_macro load_filament]
 gcode:
  G91
- G1 E50 F90
+ G1 E50 F125
  G90
  M400
 
@@ -97,7 +97,7 @@ gcode:
  G90
  M400
  G91 
- G1E-50 F300
+ G1E-50 F370
  G90
  M400
         
